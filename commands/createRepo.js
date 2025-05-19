@@ -7,7 +7,7 @@ if (!name) {
   process.exit(1);
 }
 
-const dirPath = path.join(__dirname, '../repositories'); // Assuming 'repositories' is under 'src'
+const dirPath = path.join(__dirname, '../repositories'); 
 const repoPath = path.join(dirPath, `${name}.repository.js`);
 const className = `${name.charAt(0).toUpperCase() + name.slice(1)}Repository`;
 
